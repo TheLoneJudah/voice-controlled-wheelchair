@@ -1,5 +1,4 @@
-# Retrofitting of a Manual Wheelchair into an Adaptive Voice-Controlled Hybrid Mobility System
-
+# Voice-Controlled Wheelchair
 **A Final Year Project by Ajibade Praise Titus (2020/9415)**
 *A Project Submitted in Partial Fulfilment of the Requirements for the Award of Bachelor of Engineering (B.Eng.) in Mechatronics Engineering, College of Engineering, Bells University of Technology, Ota.*
 *July 2025*
@@ -118,3 +117,4 @@ This means that with the code as-is:
 * `turnRight()` (left motor forward, right motor backward) will work.
 
 If you are replicating this project with two fully functional motor drivers, you must **remove or comment out lines 114-117** in `trythistoday.ino` to restore full bidirectional control to the left motor.
+
