@@ -91,7 +91,7 @@ The system is built on a two-microcontroller architecture:
 1.  **Hardware Assembly:** Assemble the hardware components as shown in the circuit schematic (Figure 3.8) in the `AJIBADE PRAISE FINAL YEAR PROJECT.pdf`.
 2.  **Arduino Uno:** Open `trythistoday.ino` in the Arduino IDE. Select your Arduino Uno board and COM port, then upload the sketch.
 3.  **NodeMCU (ESP8266):**
-    * Open `NODEMCU.ino` in the Arduino IDE.
+    * Open `NODEMCU.ino` in the Arduino IDE and set your own Wi-Fi password.
     * Ensure you have the ESP8266 board manager installed.
     * Select your NodeMCU/ESP8266 board and its COM port, then upload the sketch.
 4.  **Android App:**
@@ -102,7 +102,7 @@ The system is built on a two-microcontroller architecture:
     * Power on the entire wheelchair system (the 24V batteries). The NodeMCU will begin broadcasting its Wi-Fi network.
     * On your Android phone, go to your Wi-Fi settings.
     * Connect to the Wi-Fi network named **"Wheelchair_AP"**.
-    * Enter the password: **"12345678"**.
+    * Enter the password you set in `NODEMCU.ino`.
     * Once connected, open the "TalkToMe" app you installed.
     * Tap the button and speak a command. The first command should be **"PWR"** to activate the system, as shown in the `listenForPowerOn()` function.
     * The wheelchair is now ready to accept movement commands (FWD, BWD, LFT, RGT, STP).

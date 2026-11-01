@@ -5,7 +5,7 @@
 #include <ESP8266WebServer.h>
 
 const char* ssid = "Wheelchair_AP";
-const char* password = "12345678";
+const char* password = "CHANGE_THIS_PASSWORD";  // Set your own, at least 8 characters, before uploading
 
 ESP8266WebServer server(80);
 String latestMessage = "";
