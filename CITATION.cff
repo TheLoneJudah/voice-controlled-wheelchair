@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you refer to this project, please cite it as below."
+title: "Voice-Controlled Wheelchair"
+type: software
+authors:
+  - family-names: "Ajibade"
+    given-names: "Praise Titus"
+date-released: 2025-07-01
+repository-code: "https://github.com/TheLoneJudah/voice-controlled-wheelchair"
+abstract: "A B.Eng. final year project at Bells University of Technology, Ota: a voice-controlled wheelchair with joystick backup, designed for children with motor impairments."

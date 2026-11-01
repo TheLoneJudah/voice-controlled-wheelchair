@@ -3,6 +3,8 @@
 *A Project Submitted in Partial Fulfilment of the Requirements for the Award of Bachelor of Engineering (B.Eng.) in Mechatronics Engineering, College of Engineering, Bells University of Technology, Ota.*
 *July 2025*
 
+**Copyright (c) 2025 Ajibade Praise Titus. All rights reserved.** See [LICENSE](LICENSE).
+
 **Supervisor:** Engr. Daniel Akinwande
 
 ---

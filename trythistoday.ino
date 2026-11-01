@@ -1,3 +1,6 @@
+// Voice-Controlled Wheelchair
+// Copyright (c) 2025 Ajibade Praise Titus. All rights reserved.
+
 #include <SoftwareSerial.h>
 
 // === CONFIGURATION ===============================================
