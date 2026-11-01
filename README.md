@@ -111,12 +111,12 @@ The system is built on a two-microcontroller architecture:
 
 The `trythistoday.ino` code contains a **"SAFETY LOCK FOR FAULTY LEFT DRIVER"**.
 
-This section of the code (lines 110-117) **intentionally prevents the left motor from moving in reverse** (`actualLeftSpeed < 0`). This was implemented to compensate for a faulty hardware component during the project's development.
+This section of the code (lines 93-102) **intentionally prevents the left motor from moving in reverse** (`actualLeftSpeed < 0`). This was implemented to compensate for a faulty hardware component during the project's development.
 
 This means that with the code as-is:
 * `moveBackward()` will only move the right wheel backward.
 * `turnLeft()` (which requires the left wheel to go backward) will not execute as a zero-point turn.
 * `turnRight()` (left motor forward, right motor backward) will work.
 
-If you are replicating this project with two fully functional motor drivers, you must **remove or comment out lines 114-117** in `trythistoday.ino` to restore full bidirectional control to the left motor.
+If you are replicating this project with two fully functional motor drivers, you must **replace lines 96-102** in `trythistoday.ino` with the same logic used for the right motor (lines 107-116) to restore full bidirectional control to the left motor.
 
