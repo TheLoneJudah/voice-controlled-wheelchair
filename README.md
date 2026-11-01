@@ -11,7 +11,7 @@
 
 ## 🎥 Project Demonstration
 
-The included video file (`WhatsApp Video 2025-10-28 at 09.05.10_360f7bcc.mp4`) shows the retrofitted wheelchair in operation. Voice commands such as "Power on," "Move forward," "Turn left," "Turn right," and "Stop" are given via the Android application, and the wheelchair executes the movements in a real-world environment.
+The included video file ([`demo.mp4`](demo.mp4)) shows the retrofitted wheelchair in operation. Voice commands such as "Power on," "Move forward," "Turn left," "Turn right," and "Stop" are given via the Android application, and the wheelchair executes the movements in a real-world environment.
 
 
 
