@@ -120,3 +120,8 @@ This means that with the code as-is:
 
 If you are replicating this project with two fully functional motor drivers, you must **replace lines 96-102** in `trythistoday.ino` with the same logic used for the right motor (lines 107-116) to restore full bidirectional control to the left motor.
 
+## 📚 Publication
+
+This project is published in the Nigerian Journal of Applied Science and Innovative Technology (NiJASIT):
+
+Akinwande, D. O., Ajibade, P. T., Abiola, J. O., Iriaye, F. E., & Ajewole, O. K. (2026). Retrofitting a manual wheelchair with hybrid voice and joystick control for paediatric mobility. *Nigerian Journal of Applied Science and Innovative Technology (NiJASIT)*, 2(3), 403–417. https://nijasit.bellsuniversity.edu.ng
